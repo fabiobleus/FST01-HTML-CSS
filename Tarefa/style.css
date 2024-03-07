@@ -99,3 +99,12 @@
 .body_center{
     text-align: center;
 }
+a:hover{
+    background-color: rgb(17, 255, 0);
+}
+a:active{
+    background-color: pink;
+}
+a:visited{
+    color: red;
+}
