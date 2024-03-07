@@ -1,0 +1,101 @@
+.div_01{
+    width: 180px; 
+}
+.div_03{
+    width: 280px;  
+}
+.div_center{
+    text-align: center;
+}
+.hr_color{   
+    border-color: orange;
+    border-style: solid;
+}
+
+.hr_green{   
+    border-color: rgb(81, 255, 0);
+    border-style: solid;
+}
+.hr_button{   
+    border-color: rgb(10,102,194);
+    border-style: solid;
+}
+.button_join{
+    color: white;
+    background-color: rgb(10,102,194);
+    border: none;
+    height: 25px;
+    width: 165px;
+    font-size: 11px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.button_save{
+    color: rgb(10,102,194);
+    background-color: white;
+    border: solid;
+    border-color: rgb(10,102,194);
+    height: 25px;
+    width: 65px;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button_add{
+    color: black;
+    background-color: rgb(250, 209, 47);
+    border: none;
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.8s;
+
+}
+.button_add:hover{
+    opacity: 0.6;
+}
+.button_buy{
+    color: black;
+    background-color: orange;
+    border: none;
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.8ms;
+
+}
+.button_buy:hover{
+    opacity: 0.7;
+
+}
+.p_green{
+    color:green;
+    font-weight: bold;
+}
+
+.font_usd{
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.font_cont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.font_minus{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.body_center{
+    text-align: center;
+}
