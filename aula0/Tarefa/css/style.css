@@ -45,7 +45,7 @@
 }
 .button_add{
     color: black;
-    background-color: rgb(250, 209, 47);
+    background-color: rgb(249, 217, 76);
     border: none;
     height: 35px;
     width: 120px;
@@ -60,7 +60,7 @@
 }
 .button_buy{
     color: black;
-    background-color: orange;
+    background-color: rgb(255, 164, 28);
     border: none;
     height: 35px;
     width: 120px;
@@ -75,7 +75,7 @@
 
 }
 .p_green{
-    color:green;
+    color:#428800;
     font-weight: bold;
 }
 
@@ -107,4 +107,7 @@ a:active{
 }
 a:visited{
     color: red;
+}
+a{
+    color:rgb(14,180,180)
 }
