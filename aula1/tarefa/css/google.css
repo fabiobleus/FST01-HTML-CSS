@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+div{
+    margin: 0 auto;
+}
+.google{
+    width: 400px;
+
+
+}
+input{
+border: none;
+border-radius: 20px;
+padding: 10px 10px;
+box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+width: 100%;
+display: block;
+}
+button{
+border: none;
+margin: 15px 10px;
+padding: 10px 15px;
+background-color: rgb(190, 190, 190);
+
+}
+img{    
+    text-align: center;
+    width: 250px;
+}

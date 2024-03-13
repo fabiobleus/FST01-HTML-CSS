@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    padding: 30px;
+}
+.div-01{
+    width: 300px;
+
+}
+
+.div-02{
+    width: 300px;
+    display: block;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.p-gray{
+    color: gray;
+    font-size: 18px;
+    margin-top: 5px;;
+}
+.btn-green{
+    background-color:green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    font-size: 18px;
+
+}
+.img-01{
+    width: 200px;
+    border-radius: 10px;
+}
+.img-02{
+    object-fit: cover;
+    border: 23px;
+    object-position: -90px;
+    width: 200px;
+    height: 200px;
+}
+hr{
+    margin: 10px 15px;
+}
+.img-03{
+    object-fit: cover;
+    
+    object-position: -90px;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+.input-01{
+    border: solid gray;
+    border-radius: 5px;
+   
+}
+
+.input-02{
+    margin-top: 35px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 7px 7px 15px;
+    width: 400px;
+    border-radius: 12px;
+
+    box-shadow:  0px 0px 10px  gray;
+}
+.cadastro-linkedin{
+    margin-top: 60px;
+}
+.cadastro-linkedin input{
+    border: 1px gray solid;
+}
+
+.cadastro-linkedin label{
+    font-family: Arial;
+    display: block;
+}
+.foto{
+    width: 150px;
+    font-family: Arial;
+}
+.foto img{
+    object-fit: cover;
+    width: 100%;
+   height: 200px;
+   object-position: -120px;
+    
+}
+.foto .conteudo h2{
+    color: blue;
+    font-size: 20px; 
+
+}
+.foto .counteudo{
+    box-shadow: 0px 0px 5px rgba(255,025,240,15%);
+}
+.foto .conteudo p{
+    color: gray;
+    font-size: 14px; 
+
+}
+.conteudo{
+    padding: 10px;
+}
