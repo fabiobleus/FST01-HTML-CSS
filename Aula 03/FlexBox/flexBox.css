@@ -1,0 +1,26 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+.container{
+    border-radius: 5px;
+
+    background-color: rgba(27, 0, 123, 0.755);
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+   
+}
+.container div{
+    background-color: chartreuse;
+    color: white;
+    width: 120px;
+    /* height: 80px; */
+    font-size: 16px;
+    margin:  5px;
+}
