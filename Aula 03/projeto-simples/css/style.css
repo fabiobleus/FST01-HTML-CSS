@@ -38,7 +38,7 @@ body{
 }
 .linha{
     border-left: 1px solid white;
-    height: 30px;
+    height: 40px;
 }
 .btn{
     padding: 10px 20px;
@@ -53,8 +53,52 @@ body{
     padding: 10px 20px;
     border: 1px solid #fff;
     border-left: 1px solid white;
-
     border-radius:5px;
     /* background-color: rgb(139,92,246); */
     
+}
+.banner{
+    /* margin-top: 100px; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 ;
+     display: inline-flex; 
+    /* flex-direction: row; */
+     align-content: center; 
+     
+
+}
+.esquerda{
+    width: 40%;
+}
+.esquerda h2{
+    color: #8b5cf6;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.esquerda h1{
+     margin-bottom: 25px;
+     font-weight: 600;
+}
+.before-btn{
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+.after-btn{
+    margin-top: 25px;
+    font-size: 14px;
+font-weight: 200;
+}
+.direita{
+    border-radius: 15px;
+    display: inline-block;
+}
+.direita dir-01{
+    border: 10px solid green;
+    width: 50%;
+    height: 60%;
 }
