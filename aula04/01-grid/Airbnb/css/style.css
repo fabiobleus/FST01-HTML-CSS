@@ -13,6 +13,9 @@ main{
     display: inline-block;
     justify-content: space-between; */
 }
+/* .cabecalho{
+    display: inline-block;
+} */
 .titulo{
      /* width: 80%; */
     margin: 0 auto;
@@ -103,9 +106,27 @@ main .grid{
 }
 header{
     width: 80%;
+    display: flex;
+    justify-content: space-between;
+
 /* display: inline-flex; */
 /* display: flex;  */
 /* justify-content: center; */
+}
+header button{
+    background-color:  white;
+    border: none;
+    font-weight: bold;
+
+}
+.login{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    width: 75px;
+    border: 1px solid rgba(128, 128, 128, 0.616);
 }
 .btn-search{
     margin: 10px 0 ;
@@ -120,12 +141,14 @@ header{
 .search{
     /* border: none; */
     border: 1px solid gray;
-   
+    display: flex;
     /* width: 40%; */
     border-radius: 20px;
     box-shadow: 5px 5px 5px gray;
     /* align-content: center;
      */
+     justify-content: center;
+     margin-right: 25px;
 }
 .search input{
     padding: 5px 15px; 
@@ -140,7 +163,15 @@ header{
     outline: none;
 }
 .linha{
-    margin: 10px 0;
+    margin: 10px 0;     
     height: 25px;
     border-left: 1px solid black;
 }
+.anuncie{
+
+    width: 250px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 0px 0px black;
+    }
